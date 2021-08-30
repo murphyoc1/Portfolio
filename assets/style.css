@@ -14,7 +14,7 @@
   }
   header {
     padding: 20px 35px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(25, 0, 255, 0);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -76,20 +76,34 @@
   }
   .about-me h2 {
       flex: 1;
+      width: 25%;
       margin: 10px;
-      padding: 15px;
-      border-right: red;
-      text-align: center;
+      padding: 15%;
   }
   .about-me p {
       margin: 10px;
       padding: 15px;
       flex: 1;
+      align-items: flex-end;
   }
   .work-experience {
       padding: 10px;
       margin: 15px;
       display: flex;
+      justify-content: space-between;
+  }
+
+  .work-experience h2 {
+      flex: 1;
+      margin: 10px;
+      padding: 15px;
+      width: 25%;
+  }
+  .work-experience p {
+      flex: 1;
+      margin: 10px;
+      padding: 15px;
+      align-items: flex-end;
   }
   .projects {
       padding: 10px;
