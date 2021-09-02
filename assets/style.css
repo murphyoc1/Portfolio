@@ -116,6 +116,7 @@
       margin: 25px;
       display: flex;
       border-bottom: 10px solid var(--tertiary-color);
+      flex-wrap: wrap;
   } 
   .project-1 img{
     margin: 10px;
@@ -129,6 +130,28 @@
     width: 550px;
     opacity: 1;
  }
+ .project-2 img {
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    opacity: 0.3;
+    border-radius: 20px;
+ }
+ .project-2 img:hover {
+   width: 350px;
+   opacity: 1;
+ }
+ .project-3 img {
+  margin: 10px;
+  padding: 15px;
+  width: 250px;
+  opacity: 0.3;
+  border-radius: 20px;
+}
+.project-3 img:hover {
+  width: 350px;
+  opacity: 1;
+}
   .contact-me {
       padding : 10px;
       margin: 25px;
